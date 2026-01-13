@@ -174,4 +174,4 @@ class DBusKeyringKWallet4(DBusKeyring):
 
     @properties.classproperty
     def priority(cls):
-        return super().priority - 1
+        return super().priority - 1.5
